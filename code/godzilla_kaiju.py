@@ -705,8 +705,6 @@ def view_dataframe():
 
 # main
 if __name__ == "__main__":
-
-    st.image('https://github.com/Adam-Mathew-Duke/godzilla_kaiju/blob/1320b5f39268d375c576634589d850e6999ec3b6/data/image_files/rodan_images/1.gif')
     
     # load the streamlit session variables
     init_session_states()
@@ -815,6 +813,8 @@ if __name__ == "__main__":
     # display the data frame is logged in as Olly
     if st.session_state.user_name == 'Olly':
         view_dataframe()
+
+    st.write('test')
     
     # display comparison section - main page
     if st.session_state.toggle_comparison_grid == True:
