@@ -27,7 +27,7 @@ A Python application that allows users to compare and analyse various characteri
   - Research Section (image grid): View information about each of the Kaiju. Use the options in the sidebar to customise data and layout
   
 ### Installation Requirements, Dependencies and Libraries
-- Developed using Python 3.12.8 on Windows 11
+- Python 3.12
 - Pip install streamlit
 - Pip install pandas
 - A CSV file with the correct file paths set
@@ -35,11 +35,8 @@ A Python application that allows users to compare and analyse various characteri
 
 ### Debugging and Troubleshooting
 
-- st.image not loading sometimes
-  - Sometimes images do not always load from Github. I could not find a way to catch this error. If this happens when using the app you can use the Refresh Dataframe button in the Sidebar to rerun Streamlit. You can also clear the Streamlit Cache but going to the Streamlit hamburger menu.
-
-- st.dialog does not function as expected
-  - I avoided using the st.dialog in my app becuase exiting out by pressing ESC or clicking the close button does not trigger anything in Streamlit. As a result the dialog does not work as expected. 
+- st.imag
+  - If all images do not load from Github refresh the Streamlit cache. Or click the Refresh Dataframe button in the app's sidebar to re-run the Streamlit app.
 
 ### Feedback
 - Your feedback and suggestions are important to me and always welcome.
