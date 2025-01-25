@@ -31,3 +31,6 @@ A Python application that allows users to compare and analyse various characteri
 
 ### Feedback
 - Your feedback and suggestions are important to me and always welcome.
+
+### Screenshots
+![Screenshot 1](https://github.com/Adam-Mathew-Duke/godzilla_kaiju/blob/main/docs/media/screenshot_1.png)
