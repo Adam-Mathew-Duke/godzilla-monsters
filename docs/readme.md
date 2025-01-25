@@ -38,8 +38,8 @@ A Python application that allows users to compare and analyse various characteri
 - Images not loading from Github
   - Sometimes images do not always load from Github. I could not find a way to catch this error. If this happens when using the app you can use the Refresh Dataframe button in the Sidebar to rerun Streamlit. You can also clear the Streamlit Cache but going to the Streamlit hamburger menu.
 
- - st.dialog not functioning as expected
-  - I avoided using the st.dialog in my app becuase exiting out by pressing ESC or clicking the close button does not trigger anything in Streamlit. Looks like a bug. 
+- Could not use st.dialog from Streamlit
+  - I avoided using the st.dialog in my app becuase exiting out by pressing ESC or clicking the close button does not trigger anything in Streamlit. As a result the dialog does not work as expected. 
 
 ### Feedback and Ideas
 - Your feedback ideas are important to me and always welcome.
