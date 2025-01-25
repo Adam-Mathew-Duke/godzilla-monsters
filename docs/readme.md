@@ -3,12 +3,12 @@
 ### Introduction
 A Python application that allows users to compare and analyse various characteristics of different monsters from the Godzilla universe.
 
-### Developer Guide
+### Developer guide
 - Customising the UI
 - Integrating new data sources
 - Optimising performance
    
-### User Guide
+### User guide
 
 - Sidebar
   - Login - for secret users codes (not for security or logins)
@@ -18,9 +18,9 @@ A Python application that allows users to compare and analyse various characteri
   - Credits - View app credits and attributions
   - Refresh Dataframe button - A catch all to rerun Streamlit if the images do not load correctly from Github
 
-- Comparison Section
-  - Compare any two Kaiju from the dataframe (CSV file)
-  - Research Section (image grid) View information about each of the Kaiju. Use the options in the sidebar to customise data and layout
+- Main view
+  - Comparison section: Compare any two Kaiju from the dataframe (CSV file)
+  - Research Section (image grid): View information about each of the Kaiju. Use the options in the sidebar to customise data and layout
   
 ### Installation Requirements, Dependencies and Libraries
 - Developed using Python 3.12.8 on Windows 11
