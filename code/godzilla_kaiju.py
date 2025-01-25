@@ -96,8 +96,9 @@ def init_session_states():
 @st.cache_data
 def import_csv():
 
-    base_path = 'data/'
-    file_name = 'godzilla_monster_data.csv'
+    base_path = 'https://github.com/Adam-Mathew-Duke/godzilla_kaiju/'\
+    'blob/main/data/csv_files/'
+    file_name = 'godzilla_kaiju_data.csv'
     final_path = "".join([base_path, file_name])
     try:
         df = pd.read_csv(final_path)
