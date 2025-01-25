@@ -12,6 +12,13 @@ A Python application that allows users to compare and analyse various characteri
 - Image Grid Section
   
 3. Technical Details
-- Installation Requirements
-- Dependencies and Libraries
-- Debugging and Troubleshooting
+   
+### Installation Requirements
+  
+### Dependencies and Libraries
+- Python 3.12.8
+- pip install streamlit
+- pip install pandas
+
+### Debugging and Troubleshooting
+- Sometimes images may not all load from Github depending on the network try the Refresh Dataframe button in the app or clear the cache from the hamburger menu in Streamlit. You can also clear your browsers cache.
