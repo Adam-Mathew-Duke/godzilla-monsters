@@ -24,7 +24,7 @@ A Python application that allows users to compare and analyse various characteri
 - A CSV file
 - Images for each Kaiju (each image is 200 x 200 in the app)
 
-### Debugging and Troubleshooting
+### Debugging and troubleshooting
 
 - Images not loading sometmes
   - If all images do not load from Github refresh the Streamlit cache. Or click the Refresh Dataframe button in the app's sidebar to re-run the Streamlit app.
