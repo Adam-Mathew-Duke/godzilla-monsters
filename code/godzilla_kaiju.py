@@ -687,7 +687,7 @@ def rodan_gifs():
     # display at the top of the page
     with st.container(border=True):
         max_image = 6
-        base_path = 'https://github.com/Adam-Mathew-Duke/godzilla_kaiju/blob/6e01282ea6e7d8d6381d7d889b362b33fd76f08f/data/image_files/rodan_images/1.gif'
+        base_path = 'https://raw.githubusercontent.com/Adam-Mathew-Duke/godzilla_kaiju/6e01282ea6e7d8d6381d7d889b362b33fd76f08f/data/image_files/rodan_images/1.gif'
         image_name = str(random.randint(1, max_image))
         st.write('### Rodan GIF of the day!')
         image_args = '.gif'
