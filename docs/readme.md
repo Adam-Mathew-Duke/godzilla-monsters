@@ -11,7 +11,7 @@ A Python application that allows users to compare and analyse various characteri
 ### User Guideu
 
 - Sidebar
-Login - for secret users codes (not for security or logins)
+-- Login - for secret users codes (not for security or logins)
 Dataframe View - toggle the Comparison and Research sections
 Research View - add extra information to each item in the image grid
 Research Filters: change the number of records that appear within the image grid.
