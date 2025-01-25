@@ -693,7 +693,7 @@ def rodan_gifs():
         image_args = '.gif'
         #image_out = "".join([base_path, image_name, image_args])
         image_out = base_path
-        st.image(image_out,caption='Rodan GIF '\
+        st.image('https://raw.githubusercontent.com/Adam-Mathew-Duke/godzilla_kaiju/6e01282ea6e7d8d6381d7d889b362b33fd76f08f/data/image_files/rodan_images/1.gif?raw=true',caption='Rodan GIF '\
             + str(image_name) + '/' + str(max_image))
 
 def view_dataframe():
