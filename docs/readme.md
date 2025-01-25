@@ -41,5 +41,5 @@ A Python application that allows users to compare and analyse various characteri
 - st.dialog does not function as expected
   - I avoided using the st.dialog in my app becuase exiting out by pressing ESC or clicking the close button does not trigger anything in Streamlit. As a result the dialog does not work as expected. 
 
-### Feedback and Ideas
-- Your feedback ideas are important to me and always welcome.
+### Feedback
+- Your feedback and suggestions are important to me and always welcome.
