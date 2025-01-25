@@ -691,7 +691,7 @@ def rodan_gifs():
         base_path = 'https://raw.githubusercontent.com/Adam-Mathew-Duke/godzilla_kaiju/refs/heads/main/data/image_files/rodan_images/'
         image_name = str(random.randint(1, max_image))
         st.write('### Rodan GIF of the day!')
-        image_args = '.gif?raw=true'
+        image_args = '.gif'
         image_out = "".join([base_path, image_name, image_args])
         st.image(image_out,caption='Rodan GIF '\
             + str(image_name) + '/' + str(max_image))
