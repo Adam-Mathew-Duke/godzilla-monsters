@@ -813,9 +813,7 @@ if __name__ == "__main__":
     # display the data frame is logged in as Olly
     if st.session_state.user_name == 'Olly':
         view_dataframe()
-
-    st.write('test')
-    
+        
     # display comparison section - main page
     if st.session_state.toggle_comparison_grid == True:
         st.header('Comparison',divider='blue')
