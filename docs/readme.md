@@ -11,18 +11,16 @@ A Python application that allows users to compare and analyse various characteri
 ### User Guideu
 
 - Sidebar
--- Login - for secret users codes (not for security or logins)
-Dataframe View - toggle the Comparison and Research sections
-Research View - add extra information to each item in the image grid
-Research Filters: change the number of records that appear within the image grid.
-Credits - View app credits and attributions
-Refresh Dataframe button - A catch all to rerun Streamlit if the images do not load correctly from Github
+  - Login - for secret users codes (not for security or logins)
+  - Dataframe View - toggle the Comparison and Research sections
+  - Research View - add extra information to each item in the image grid
+  - Research Filters: change the number of records that appear within the image grid.
+  - Credits - View app credits and attributions
+  - Refresh Dataframe button - A catch all to rerun Streamlit if the images do not load correctly from Github
 
 - Comparison Section
-Compare any two Kaiju from the dataframe (CSV file)
-  
-- Research Section (image grid)
-View information about each of the Kaiju. Use the options in the sidebar to customise data and layout
+  - Compare any two Kaiju from the dataframe (CSV file)
+  - Research Section (image grid) View information about each of the Kaiju. Use the options in the sidebar to customise data and layout
   
 ### Installation Requirements, Dependencies and Libraries
 - Developed using Python 3.12.8 on Windows 11
