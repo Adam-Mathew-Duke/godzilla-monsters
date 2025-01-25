@@ -34,3 +34,7 @@ A Python application that allows users to compare and analyse various characteri
 
 ### Screenshots
 ![Screenshot 1](https://github.com/Adam-Mathew-Duke/godzilla_kaiju/blob/main/docs/media/screenshot_1.png)
+![Screenshot 2](https://github.com/Adam-Mathew-Duke/godzilla_kaiju/blob/main/docs/media/screenshot_2.png)
+![Screenshot 3](https://github.com/Adam-Mathew-Duke/godzilla_kaiju/blob/main/docs/media/screenshot_3.png)
+![Screenshot 4](https://github.com/Adam-Mathew-Duke/godzilla_kaiju/blob/main/docs/media/screenshot_4.png)
+![Sticker](https://github.com/Adam-Mathew-Duke/godzilla_kaiju/blob/main/docs/media/sticker.png)
