@@ -35,7 +35,7 @@ A Python application that allows users to compare and analyse various characteri
 
 ### Debugging and Troubleshooting
 
-- st.imag
+- st.image
   - If all images do not load from Github refresh the Streamlit cache. Or click the Refresh Dataframe button in the app's sidebar to re-run the Streamlit app.
 
 ### Feedback
