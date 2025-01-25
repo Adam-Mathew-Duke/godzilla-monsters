@@ -21,4 +21,5 @@ A Python application that allows users to compare and analyse various characteri
 - pip install pandas
 
 ### Debugging and Troubleshooting
-- Sometimes images may not all load from Github depending on the network try the Refresh Dataframe button in the app or clear the cache from the hamburger menu in Streamlit. You can also clear your browsers cache.
+- Sometimes images will not all load correctly from Github. I could not find a way to catch this error in my code. If you have suggestions please let me know!
+- If all the images do not load press the Refresh Dataframe button in the sidebar or clear the Streamlit cache from the Streamlit hamburger menu.
