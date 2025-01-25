@@ -4,13 +4,17 @@
 A Python application that allows users to compare and analyse various characteristics of different monsters from the Godzilla universe.
 
 ### Developer guide
-- Customising the UI
+  
 - Integrating new data sources
+  - Changing the base_path and the file_name variables to import your own CSV files.
+  - Changing the image URLs in the CSV file allows you to use different images.
+  
 - Optimising performance
+  - Using @st.cache_data above selected functions is helpful.
    
 ### User guide
 
-- Sidebar
+- Sidebar components
   - Login - for secret users codes (not for security or logins)
   - Dataframe View - toggle the Comparison and Research sections
   - Research View - add extra information to each item in the image grid
@@ -18,7 +22,7 @@ A Python application that allows users to compare and analyse various characteri
   - Credits - View app credits and attributions
   - Refresh Dataframe button - A catch all to rerun Streamlit if the images do not load correctly from Github
 
-- Main view
+- Main components
   - Comparison section: Compare any two Kaiju from the dataframe (CSV file)
   - Research Section (image grid): View information about each of the Kaiju. Use the options in the sidebar to customise data and layout
   
@@ -30,7 +34,12 @@ A Python application that allows users to compare and analyse various characteri
 - Images for each Kaiju with the correct file paths set (each image is 200 x 200 in the app)
 
 ### Debugging and Troubleshooting
-- Sometimes images will not all load correctly from Github. I could not find a way to catch this error in my code. If you have suggestions please let me know! If all the images do not load press the Refresh Dataframe button in the sidebar or clear the Streamlit cache from the Streamlit hamburger menu.
+
+- Images not loading from Github
+  - Sometimes images do not always load from Github. I could not find a way to catch this error. If this happens when using the app you can use the Refresh Dataframe button in the Sidebar to rerun Streamlit. You can also clear the Streamlit Cache but going to the Streamlit hamburger menu.
+
+ - st.dialog not functioning as expected
+  - I avoided using the st.dialog in my app becuase exiting out by pressing ESC or clicking the close button does not trigger anything in Streamlit. Looks like a bug. 
 
 ### Feedback and Ideas
-- Your feedback ideas and experience are always welcome.
+- Your feedback ideas are important to me and always welcome.
