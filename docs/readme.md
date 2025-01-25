@@ -3,15 +3,6 @@
 ### Introduction
 A Python application that allows users to compare and analyse various characteristics of different monsters from the Godzilla universe.
 
-### Developer guide
-  
-- Integrating new data sources
-  - Changing the base_path and the file_name variables to import your own CSV files.
-  - Changing the image URLs in the CSV file allows you to use different images.
-  
-- Optimising performance
-  - Using @st.cache_data above selected functions is helpful.
-   
 ### User guide
 
 - Sidebar components
@@ -26,16 +17,16 @@ A Python application that allows users to compare and analyse various characteri
   - Comparison section: Compare any two Kaiju from the dataframe (CSV file)
   - Research Section (image grid): View information about each of the Kaiju. Use the options in the sidebar to customise data and layout
   
-### Installation Requirements, Dependencies and Libraries
+### Requirements
 - Python 3.12
 - Pip install streamlit
 - Pip install pandas
-- A CSV file with the correct file paths set
-- Images for each Kaiju with the correct file paths set (each image is 200 x 200 in the app)
+- A CSV file
+- Images for each Kaiju (each image is 200 x 200 in the app)
 
 ### Debugging and Troubleshooting
 
-- st.image
+- Images not loading sometmes
   - If all images do not load from Github refresh the Streamlit cache. Or click the Refresh Dataframe button in the app's sidebar to re-run the Streamlit app.
 
 ### Feedback
