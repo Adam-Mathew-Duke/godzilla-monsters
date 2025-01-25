@@ -693,8 +693,10 @@ def rodan_gifs():
         image_args = '.gif'
         #image_out = "".join([base_path, image_name, image_args])
         image_out = base_path
-        st.image('https://raw.githubusercontent.com/Adam-Mathew-Duke/godzilla_kaiju/6e01282ea6e7d8d6381d7d889b362b33fd76f08f/data/image_files/rodan_images/1.gif?raw=true',caption='Rodan GIF '\
-            + str(image_name) + '/' + str(max_image))
+        
+
+#st.image('https://github.com/Adam-Mathew-Duke/godzilla_kaiju/blob/1320b5f39268d375c576634589d850e6999ec3b6/data/image_files/rodan_images/1.gif',caption='Rodan GIF '\
+         #   + str(image_name) + '/' + str(max_image))
 
 def view_dataframe():
     st.header('Dataframe Access',divider='rainbow')
@@ -704,6 +706,8 @@ def view_dataframe():
 # main
 if __name__ == "__main__":
 
+    st.image('https://github.com/Adam-Mathew-Duke/godzilla_kaiju/blob/1320b5f39268d375c576634589d850e6999ec3b6/data/image_files/rodan_images/1.gif')
+    
     # load the streamlit session variables
     init_session_states()
 
