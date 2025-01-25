@@ -1,4 +1,4 @@
-# Kaiji Dataframe 1.0 Readme
+# Kaiju Dataframe 1.0 Readme
 
 ### Introduction
 A Python application that allows users to compare and analyse various characteristics of different monsters from the Godzilla universe.
