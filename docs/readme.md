@@ -8,7 +8,7 @@ A Python application that allows users to compare and analyse various characteri
 - Integrating new data sources
 - Optimising performance
    
-### User Guideu
+### User Guide
 
 - Sidebar
   - Login - for secret users codes (not for security or logins)
@@ -33,4 +33,4 @@ A Python application that allows users to compare and analyse various characteri
 - Sometimes images will not all load correctly from Github. I could not find a way to catch this error in my code. If you have suggestions please let me know! If all the images do not load press the Refresh Dataframe button in the sidebar or clear the Streamlit cache from the Streamlit hamburger menu.
 
 ### Feedback and Ideas
-- Your feedback ideas and experience are always welcome. This is my very first medium sized project using Python and Streamlit so any tips or suggestions you have to make my app even better are always very much appreciated.
+- Your feedback ideas and experience are always welcome.
