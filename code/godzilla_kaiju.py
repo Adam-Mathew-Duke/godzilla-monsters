@@ -96,8 +96,7 @@ def init_session_states():
 @st.cache_data
 def import_csv():
 
-    base_path = 'https://github.com/Adam-Mathew-Duke/godzilla_kaiju/'\
-    'blob/main/data/csv_files/'
+    base_path = 'https://raw.githubusercontent.com/Adam-Mathew-Duke/godzilla_kaiju/refs/heads/main/data/csv_files/'
     file_name = 'godzilla_kaiju_data.csv'
     final_path = "".join([base_path, file_name])
     try:
